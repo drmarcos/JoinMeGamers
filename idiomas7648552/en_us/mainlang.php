@@ -1,0 +1,163 @@
+<?php
+
+$_ACESSO = 'Sign In';
+$_ATENCAO = 'Attention';
+$_CADASTROS_EFETUADOS = 'completed registration(s).';
+$_CHAMAEUKATWO = 'Call me Katwo!';
+$_COLABORAR = 'To collaborate';
+$_COMO_FUNCIONA = 'How it works';
+$_COMO_FUNCIONA .=('&nbsp;<span class="glyphicon glyphicon-share-alt"></span>&nbsp;');
+$_COMO_FUNCIONA .=('ChamaEuKatwo?');
+$_CONTATO = 'Contact';
+$_COPIAR = 'Copy';
+$_DICAS_IMPORTANTES = 'Important Tips!';
+$_EITA_CALMA_AI_VEI = 'Wow! again? Calm down, wait for the call.!';
+$_EXCLUIR = 'Delete';
+$_FECHAR = 'Close';
+$_FIQUE_ATENTO_A_LIVE = 'Stay tuned to live, otherwise when you call you may lose your turn!';
+$_INICIAL = 'Home';
+$_INSCRICOES_ABERTAS = ('Mantenha inscrições sempre abertas');
+$_JA_CADASTRADO = 'Already registered';
+$_JOGO = 'Game';
+$_NICKNAME = 'Nick Name';
+$_NOME_YOUTUBE = 'YouTube Name';
+$_NOVO_DIA_NOVOS_INSCRITOS = 'New day, new subscribers.';
+$_PATROCINADORES = 'Sponsor';
+$_PEGUE_SEU_AGORA = 'Get yours now!';
+$_PREENCHA_CAMPOS_OBRIGATORIOS = '* Fill in the required fields';
+$_PROJETOS = 'Projects';
+$_QUER_AJUDAR = 'Support?';
+$_SAIR = 'Sign Out';
+$_SEJA_COLABORADOR = 'Be a contributor!';
+$_SEU_LINK_YOUTUBE = 'Seu Link no Youtube <span style="color:#808080;">[ *conferir inscrição ]</span>';
+$_SOBRE = 'About';
+$_STATUS = 'Status';
+$_TODOS_CAMPOS_PREENCHIDOS = '* All fields must be filled.';
+$_USUARIO_BANIDO = 'User ban';
+
+
+$_TXT_ACCORDION_DICAS_IMPORTANTES ='';
+
+$_TXT_ACCORDION_DICAS_IMPORTANTES .= $katwo->duasTags('ul',NULL,'li');
+$_TXT_ACCORDION_DICAS_IMPORTANTES .=('É fundamental que você esteja acompanhado a transmissão do canal.');
+$_TXT_ACCORDION_DICAS_IMPORTANTES .= $katwo->duasTags('/li',NULL,'li');
+$_TXT_ACCORDION_DICAS_IMPORTANTES .=('Tenha seu jogo aberto e esteja logado.');
+$_TXT_ACCORDION_DICAS_IMPORTANTES .= $katwo->duasTags('/li',NULL,'li');
+$_TXT_ACCORDION_DICAS_IMPORTANTES .=('Se você for chamado para uma partida e não estiver "ligado", perderá a vez.');
+$_TXT_ACCORDION_DICAS_IMPORTANTES .= $katwo->duasTags('/li',NULL,'li');
+$_TXT_ACCORDION_DICAS_IMPORTANTES .=('Não seja um jogador tóxico, <b style="color:red;">criticas e ofensas aos demais jogadores não serão tolerados</b>.');
+$_TXT_ACCORDION_DICAS_IMPORTANTES .= $katwo->duasTags('/li',NULL,'/ul');
+
+
+$_TXT_ACCORDION_COMO_FUNCIONA =$katwo->duasTags('ul',NULL,'li');
+$_TXT_ACCORDION_COMO_FUNCIONA .=('<b>Playing with subscribers [Friends]</b>');
+$_TXT_ACCORDION_COMO_FUNCIONA .=$katwo->Tags('br');
+$_TXT_ACCORDION_COMO_FUNCIONA .=('<a data-toggle="modal" href="#inscricoesAbertas">');
+$_TXT_ACCORDION_COMO_FUNCIONA .=('It is necessary that you leave your public subscriptions on Youtube.');
+$_TXT_ACCORDION_COMO_FUNCIONA .=$katwo->Tags('/a');
+$_TXT_ACCORDION_COMO_FUNCIONA .=$katwo->duasTags('/li',NULL,'li');
+$_TXT_ACCORDION_COMO_FUNCIONA .=('At the end of a match the next team will be called according to the entries in this system.');
+$_TXT_ACCORDION_COMO_FUNCIONA .=$katwo->duasTags('/li',NULL,'li');
+$_TXT_ACCORDION_COMO_FUNCIONA .=('Friends will be called by order from the list.');
+$_TXT_ACCORDION_COMO_FUNCIONA .=$katwo->duasTags('/li',NULL,'li');
+$_TXT_ACCORDION_COMO_FUNCIONA .=('The list is only valid for this day: <b style="font-size:2.0em">'.$exibedatahoje.'</b>');
+$_TXT_ACCORDION_COMO_FUNCIONA .=$katwo->duasTags('/li',NULL,'li');
+$_TXT_ACCORDION_COMO_FUNCIONA .=('If the Stream is in schedule that can change the day, the list will automatically ZERO the records, starting a new relation of friends.');
+$_TXT_ACCORDION_COMO_FUNCIONA .=$katwo->duasTags('/li',NULL,'li');
+$_TXT_ACCORDION_COMO_FUNCIONA .=('<b>The queue goes </b>: If you lose the turn, you must register a new request to participate..');
+$_TXT_ACCORDION_COMO_FUNCIONA .=$katwo->duasTags('/li',NULL,'li');
+$_TXT_ACCORDION_COMO_FUNCIONA .=('Do not be a toxic player, <b  style="color:red;">criticism and offenses to other live players/participants will not be tolerated</b>.');
+$_TXT_ACCORDION_COMO_FUNCIONA .= $katwo->duasTags('/li',NULL,'/ul');
+
+$_TXT_ACCORDION_QUER_AJUDAR =$katwo->duasTags('ul',NULL,'li');
+$_TXT_ACCORDION_QUER_AJUDAR .=('<b>Likes</b> são um importante recurso para ajudar o canal a crescer, então lembre-se de dar seu tapa no like a cada nova Stream.');
+$_TXT_ACCORDION_QUER_AJUDAR .=$katwo->duasTags('/li',NULL,'li');
+$_TXT_ACCORDION_QUER_AJUDAR .=('<b>Compartilhar</b> as transmissões é muito importante para divulgação do trabalho. Sempre que puder, compartilhe!');
+$_TXT_ACCORDION_QUER_AJUDAR .=$katwo->duasTags('/li',NULL,'li');
+$_TXT_ACCORDION_QUER_AJUDAR .=('<b>Mensagens na Tela</b>: Use o <b>LOOTS</b> para ver suas mensagens em destaque diretamente na tela da transmissão.');
+$_TXT_ACCORDION_QUER_AJUDAR .=$katwo->duasTags('/li',NULL,'li');
+$_TXT_ACCORDION_QUER_AJUDAR .=('<b>Super Chat:</b> uma forma de contribuir financeiramente com valores que você mesmo determina.');
+$_TXT_ACCORDION_QUER_AJUDAR .=$katwo->duasTags('/li',NULL,'li');
+$_TXT_ACCORDION_QUER_AJUDAR .=('<b>Patrocinador</b>: Recurso disponibilizado pelo Youtube para que você contribua mensalmente com o trabalho do canal.');
+$_TXT_ACCORDION_QUER_AJUDAR .=$katwo->duasTags('/li',NULL,'/ul');
+
+$_TXT_ACCORDION_SOBRE =$katwo->duasTags('ul',NULL,'li');
+$_TXT_ACCORDION_SOBRE .=('<b>Playing with subscribers [Friends]</b>');
+$_TXT_ACCORDION_SOBRE .=$katwo->duasTags('/li',NULL,'li');
+$_TXT_ACCORDION_SOBRE .=('If you still do not know, we play for fun and not to compete. We do not pretend to play professionally.');
+$_TXT_ACCORDION_SOBRE .=$katwo->duasTags('/li',NULL,'li');
+$_TXT_ACCORDION_SOBRE .=('We just want to have fun, meet good friends and make new friends.');	
+$_TXT_ACCORDION_SOBRE .=$katwo->duasTags('/li',NULL,'li');
+$_TXT_ACCORDION_SOBRE .=('Our goal is to spend the hours with lots of fun in good company.');	
+$_TXT_ACCORDION_SOBRE .=$katwo->duasTags('/li',NULL,'/ul');
+
+$_TXT_COLABORADORES =('Deseja de alguma forma contribuir para o trabalho da KatwoGamer?');
+$_TXT_COLABORADORES .= $katwo->tags('br',NULL,2);
+$_TXT_COLABORADORES .=$katwo->duasTags('ul',NULL,'li');
+$_TXT_COLABORADORES .=('<b>Likes</b> são um importante recurso para ajudar o canal a crescer, então lembre-se de dar seu tapa no like a cada nova Stream.');
+$_TXT_COLABORADORES .=$katwo->duasTags('/li',NULL,'li');
+$_TXT_COLABORADORES .=('<b>Compartilhar</b> as transmissões é muito importante para divulgação do trabalho. Sempre que puder, compartilhe!');
+$_TXT_COLABORADORES .=$katwo->duasTags('/li',NULL,'li');
+$_TXT_COLABORADORES .=('<b>Mensagens na Tela</b>: Use o <b>LOOTS</b> para ver suas mensagens em destaque diretamente na tela da transmissão.');
+$_TXT_COLABORADORES .=$katwo->duasTags('/li',NULL,'li');
+$_TXT_COLABORADORES .=('<b>Super Chat:</b> uma forma de contribuir financeiramente com valores que você mesmo determina.');
+$_TXT_COLABORADORES .=$katwo->duasTags('/li',NULL,'li');
+$_TXT_COLABORADORES .=('<b>Patrocinador</b>: Recurso disponibilizado pelo Youtube para que você contribua mensalmente com o trabalho do canal.');
+$_TXT_COLABORADORES .=$katwo->duasTags('/li',NULL,'li');
+$_TXT_COLABORADORES .=('<b>Google Play</b>: Criamos e disponibilizamos jogos e apps gratuitos, uma boa forma de nos ajudar e se divertir.');
+$_TXT_COLABORADORES .=$katwo->duasTags('/li',NULL,'li');
+$_TXT_COLABORADORES .=('<b class="text-danger">Lembre-se</b>: Faça uma boa resenha e dê uma boa avaliação nos nossos apps no Google Play, precisamos muito desse apoio para que o trabalho seja conhecido.');
+$_TXT_COLABORADORES .=$katwo->duasTags('/li',NULL,'/ul');
+
+$_TXT_CONTATOS =('Deseja de alguma forma contribuir para o trabalho da KatwoGamer?');
+$_TXT_CONTATOS .= $katwo->tags('br',NULL,2);
+$_TXT_CONTATOS .=$katwo->duasTags('ul',NULL,'li');
+$_TXT_CONTATOS .=('Quer Fazer uma parceria?');
+$_TXT_CONTATOS .=$katwo->duasTags('/li',NULL,'li');
+$_TXT_CONTATOS .=('Promover seu canal?');
+$_TXT_CONTATOS .=$katwo->duasTags('/li',NULL,'li');
+$_TXT_CONTATOS .=('Divulgar seu Produto?');
+$_TXT_CONTATOS .=$katwo->duasTags('/li',NULL,'li');
+$_TXT_CONTATOS .=('Conhecer nossos jogos?');
+$_TXT_CONTATOS .=$katwo->duasTags('/li',NULL,'/ul');
+$_TXT_CONTATOS .= $katwo->tags('br');
+$_TXT_CONTATOS .=('Envie uma mensagem para:');
+$_TXT_CONTATOS .= $katwo->tags('br');
+$_TXT_CONTATOS .=('<b>contatokatwogamer<img src="imagens/icones/mail_arrob.png">gmail.com</b>');
+$_TXT_CONTATOS .= $katwo->tags('br');
+
+$_TXT_MANTER_INSCRICOES_ABERTAS_YOUTUBE = ('Para manter suas inscrições públicas no Youtube você deverá configurar corretamente seu perfil');
+$_TXT_MANTER_INSCRICOES_ABERTAS_YOUTUBE .= $katwo->tags('br');
+$_TXT_MANTER_INSCRICOES_ABERTAS_YOUTUBE .= ('Acesse as configurações de privacidade para controlar e marque a opção:');
+$_TXT_MANTER_INSCRICOES_ABERTAS_YOUTUBE .= $katwo->tags('br');
+$_TXT_MANTER_INSCRICOES_ABERTAS_YOUTUBE .= ('"Manter todas as minhas inscrições públicas".');
+$_TXT_MANTER_INSCRICOES_ABERTAS_YOUTUBE .= $katwo->tags('br');
+$_TXT_MANTER_INSCRICOES_ABERTAS_YOUTUBE .= $katwo->tags('h3',NULL,1,'style="color:#800000;"');
+$_TXT_MANTER_INSCRICOES_ABERTAS_YOUTUBE .= ('Não entendeu?');
+$_TXT_MANTER_INSCRICOES_ABERTAS_YOUTUBE .= $katwo->tags('/h3');
+$_TXT_MANTER_INSCRICOES_ABERTAS_YOUTUBE .= $katwo->tags('b');
+$_TXT_MANTER_INSCRICOES_ABERTAS_YOUTUBE .= ('Explicando de outra forma:');
+$_TXT_MANTER_INSCRICOES_ABERTAS_YOUTUBE .= $katwo->tags('/b');
+$_TXT_MANTER_INSCRICOES_ABERTAS_YOUTUBE .= $katwo->tags('br');
+$_TXT_MANTER_INSCRICOES_ABERTAS_YOUTUBE .= ('Para manter as suas inscrições <b>públicas</b> no YouTube, siga estes passos:');
+$_TXT_MANTER_INSCRICOES_ABERTAS_YOUTUBE .= $katwo->duasTags('ul',NULL,'li');
+$_TXT_MANTER_INSCRICOES_ABERTAS_YOUTUBE .= ('Entra no seu canal do YouTube e clique em Configurações (ícone de engrenagem)<span class="glyphicon glyphicon-cog"></span>.'); 
+$_TXT_MANTER_INSCRICOES_ABERTAS_YOUTUBE .= $katwo->duasTags('/li',NULL,'li');
+$_TXT_MANTER_INSCRICOES_ABERTAS_YOUTUBE .= ('Em seguida, clique em Configurações YouTube: ');
+$_TXT_MANTER_INSCRICOES_ABERTAS_YOUTUBE .= $katwo->duasTags('/li',NULL,'li');
+$_TXT_MANTER_INSCRICOES_ABERTAS_YOUTUBE .= ('Clique em Privacidade e na Seção Assinaturas, marque a opção:<br/> "<i>Manter todas as minhas assinaturas como públicas!</i>" ');
+$_TXT_MANTER_INSCRICOES_ABERTAS_YOUTUBE .= $katwo->duasTags('/li',NULL,'/ul');
+$_TXT_MANTER_INSCRICOES_ABERTAS_YOUTUBE .= ('Clique em Salvar. Prontinho! ');
+
+$_TXT_PATROCINADORES = 'Deseja de alguma forma contribuir para o trabalho da KatwoGamer?';
+$_TXT_PATROCINADORES .= $katwo->tags('br',NULL,2);
+$_TXT_PATROCINADORES .= 'Dispomos de alguns recursos simples, gratuitos e ou de baixo custo que, com certeza, você poderá se tornar um de nossos patrocinadores.';
+$_TXT_PATROCINADORES .= $katwo->tags('br',NULL,2);
+
+$_TXT_PROJETOS =('Você já conhece nossos Jogo?<br/>');
+$_TXT_PROJETOS .= $katwo->tags('br');
+$_TXT_PROJETOS .=('Temos mais de 20 jogos e aplicativos publicados no Google Play.');
+$_TXT_PROJETOS .= $katwo->tags('br');
+$_TXT_PROJETOS .=('Muitos deles são gratuitos e você poderá mesmo assim nos ajudar se divertindo diariamente.');
+$_TXT_PROJETOS .= $katwo->tags('br');
+?>
