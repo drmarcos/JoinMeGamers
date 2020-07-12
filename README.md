@@ -2,31 +2,54 @@
 Você faz live stream de jogos? Esse software você precisa ter!
 
 /*-----------------------------------------------------------------------------------*
-@ 	 
+@ 	
+
 @		Idioma: Português- Brasil	            						 
+
 @		Autor: 	Oliveira M.J.N
+
 @		Contato: <soordle#gmail.com>							                     								 	 
+
 @       ® todos os direitos reservados desde 2007  
+
 @       VERSÂO 1.0     								 
+
 @
-@ NOTICE OF COPYRIGHT ---------------------------------------------------------------*                   
+
+@ NOTICE OF COPYRIGHT
+
 @
+
 @ Copyright (C) 2007  Oliveira M.J.N  http://www.eadgames.com.br        
+
 @ Copyright (C) 2012  Oliveira M.J.N  http://www.soordle.org                    
+
 @
+
 @ This program is free software; you can redistribute it and/or modify  
+
 @ it under the terms of the GNU General Public License as published by  
+
 @ the Free Software Foundation; either version 2 of the License, or     
+
 @ (at your option) any later version.                                   
+
 @
+
 @ This program is distributed in the hope that it will be useful,       
+
 @ but WITHOUT ANY WARRANTY; without even the implied warranty of        
+
 @ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         
+
 @ GNU General Public License for more details:                          
+
 @
+
 @          http://www.gnu.org/copyleft/gpl.html                         
+
 @                                                                       
-@------------------------------------------------------------------------------------*/
+
 
 Este sistema de cadastros foi desenvolvido usando PHP versão 5.3.8.
 É um recurso criado para contribuir com Gamers que gostam de compartilhar com amigos a possibilidade de formação de times.
@@ -47,4 +70,4 @@ Não requer nenhum conhecimento técnico avançado, bastando colocar os arquivos
 Por favor mantenha os dados de autoria!
 --------------------------------------------
 
-<a href="http://http://www.katwo.com.br/chamaeukatwo" target="_blank">Demo</a>
+<a href="http://www.katwo.com.br/chamaeukatwo" target="_blank">Demo</a>
